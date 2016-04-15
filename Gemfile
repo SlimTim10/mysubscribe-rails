@@ -25,6 +25,7 @@ group :production do
   # Use postgresql as the database for Active Record
   gem 'pg'
   gem 'rails_12factor'
+  gem 'puma'
 end
 
 # Use ActiveModel has_secure_password
