@@ -2,11 +2,46 @@
 @import "bootstrap";
 
 .header-button-outer {
-	margin-top: 0px;
-	margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header-button-inner {
-	padding: 1em 12px;
-	border-radius: 0;
+  padding: 1em 12px;
+  border-radius: 0;
+}
+
+@media (min-width: 1020px) {
+  .wrap-header {
+	position: relative;
+	max-width: 1100px;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .wrap-header {
+	margin-right: 5%;
+	margin-left: 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .wrap-header {
+	margin-right: auto;
+	margin-left: auto;
+  }
+}
+
+.wrap-links {
+  position: absolute;
+}
+@media (max-width: 1019px) {
+  .wrap-links {
+	top: 0;
+	right: -270px;
+	width: 270px;
+  }
+}
+@media (min-width: 1020px) {
+  .wrap-links {
+	width: 100%;
+  }
 }
